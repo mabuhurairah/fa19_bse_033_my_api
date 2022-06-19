@@ -12,7 +12,7 @@ const validateUserLogin = require('../../middlewares/validateUserLogin');
 
 
 //get all users
-router.get("/", async (req,res) => {
+router.get("/", auth, admin, async (req,res) => {
     let users = await User.find();
     return res.send(users);
 });
