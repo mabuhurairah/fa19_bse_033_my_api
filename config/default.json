@@ -1,4 +1,4 @@
 {
-    "db": "mongodb://localhost/projectapi",
+    "db": "mongodb+srv://mabuhurairah:Mabubaker3773@cluster0.9lno4vp.mongodb.net/?retryWrites=true&w=majority",
     "jwtPrivateKey": "PrivateKey"
 }
