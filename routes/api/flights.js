@@ -14,7 +14,7 @@ router.get("/", async (req,res) => {
 });
 
 //get single flight
-router.get("/:id", auth, admin, async (req,res) => {
+router.get("/:id", async (req,res) => {
     try{
         let flight = await Flight.findById(req.params.id);
         if(!flight){
