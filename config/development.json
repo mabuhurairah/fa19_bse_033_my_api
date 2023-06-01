@@ -1,4 +1,0 @@
-{
-    "db": "mongodb+srv://mabuhurairah:fa19bse033@cluster0.9lno4vp.mongodb.net/?retryWrites=true&w=majority",
-    "jwtPrivateKey": "PrivateKey"
-}
